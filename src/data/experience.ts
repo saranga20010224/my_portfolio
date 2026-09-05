@@ -66,6 +66,7 @@ export const EXPERIENCES: ExperienceItem[] = [
     id: "escreen",
     role: "Trainee Business Analyst",
     company: "E-Screen Systems",
+    companySubtitle: "E-Screen Systems (Pvt) Ltd • Textile Printing & Manufacturing Solutions Provider",
     period: "Present",
     isCurrent: true,
     type: "Trainee",
