@@ -138,15 +138,15 @@ export const About: React.FC = () => {
 
         {/* Education & Academic Background (Placed after About My Journey) */}
         <div id="education" className="mt-8 pt-8 border-t border-slate-200/80 dark:border-slate-800">
-          <div className="max-w-3xl mb-6">
+          <div className="max-w-4xl mb-6">
             <span className="text-xs font-bold uppercase tracking-wider text-blue-600 dark:text-blue-400">
               Academic Background
             </span>
             <h3 className="text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-white tracking-tight mt-1">
               Education
             </h3>
-            <p className="text-sm sm:text-base text-slate-600 dark:text-slate-300 mt-1">
-              A rigorous quantitative and computational foundation in statistics, probability, and mathematical finance.
+            <p className="text-sm sm:text-base text-slate-600 dark:text-slate-300 mt-2 leading-relaxed">
+              Developed a multidisciplinary foundation in <strong className="font-semibold text-slate-800 dark:text-slate-200">statistics, data analysis, computer science, operations research, and mathematics</strong> during my undergraduate studies. Gained hands-on experience in <strong className="font-semibold text-slate-800 dark:text-slate-200">statistical analysis, regression, probability, programming, linear programming, optimization, and real analysis</strong>, while applying theoretical concepts through practical work with tools such as <strong className="font-semibold text-slate-800 dark:text-slate-200">Minitab, RStudio, SPSS, and Octave</strong>. This combination of theoretical knowledge and practical experience strengthened my ability to solve quantitative and analytical problems using data-driven approaches.
             </p>
           </div>
 
