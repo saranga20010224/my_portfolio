@@ -39,7 +39,7 @@ export const EDUCATION_DATA: EducationItem[] = [
       "Programming"
     ],
     description:
-      "A rigorous multidisciplinary university degree synthesizing core statistical theory, applied mathematical finance, computational methods, database management systems, and practical data analytics."
+      "A multidisciplinary university degree that provided a strong foundation in statistics, mathematical finance, computer-based methods, database management, and practical data analytics."
   },
   {
     id: "ssc",
