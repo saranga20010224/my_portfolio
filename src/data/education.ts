@@ -22,10 +22,10 @@ export const ACADEMIC_PIPELINE = [
 export const EDUCATION_DATA: EducationItem[] = [
   {
     id: "uoc",
-    degree: "BSc. Industrial Statistics and Mathematical Finance",
+    degree: "BSc in Industrial Statistics and Mathematical Finance",
     institution: "University of Colombo",
-    period: "2023 – 2026",
-    status: "Completed all academic requirements",
+    period: "2022 – 2026",
+    status: "Officially Graduated – 2026",
     location: "Colombo, Sri Lanka",
     isDominant: true,
     relevantAreas: [

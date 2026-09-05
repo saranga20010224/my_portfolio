@@ -83,7 +83,7 @@ export const PROFILE_DATA = {
     myJourney: {
       title: "About My Journey",
       paragraphs: [
-        "I’m Saranga Rathnayaka, an analytics professional with a BSc. in Industrial Statistics and Mathematical Finance from the University of Colombo (completed all academic requirements). My quantitative education provides a rigorous foundation in probability, statistical modeling, database systems, and computational analytics.",
+        "I’m Saranga Rathnayaka, an analytics professional who graduated with a BSc in Industrial Statistics and Mathematical Finance from the University of Colombo. My quantitative education provides a rigorous foundation in probability, statistical modeling, database systems, and computational analytics.",
         "My professional journey encompasses data analytics and payroll reporting at Ansell Textiles Lanka, operations-focused manufacturing analytics at Hela Clothing, and my current role as a Trainee Business Analyst at E Screen Systems. Across these roles, I combine business acumen, statistical rigor, and modern BI tools to turn raw organizational data into continuous process improvements."
       ]
     }
@@ -157,8 +157,8 @@ export const PROFILE_DATA = {
     {
       id: "academic-background",
       label: "Academic Background",
-      value: "Industrial Statistics & Math Finance",
-      subValue: "BSc — University of Colombo",
+      value: "Graduate | Industrial Statistics & Math Finance",
+      subValue: "BSc — University of Colombo (2022 – 2026)",
       iconName: "GraduationCap"
     }
   ] as SnapshotItem[],

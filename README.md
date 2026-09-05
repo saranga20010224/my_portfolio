@@ -10,7 +10,7 @@ Built with **React 18**, **TypeScript**, **Tailwind CSS**, and **Vite**.
 
 ## 🚀 Key Features
 
-- **Recruiter 5-Second Scan**: Clear identity above the fold with current role badge (*Trainee Business Analyst @ E Screen Systems*), academic honors (*BSc. Industrial Statistics & Mathematical Finance, University of Colombo*), core skills, and quick CV access.
+- **Recruiter 5-Second Scan**: Clear identity above the fold with current role badge (*Trainee Business Analyst @ E Screen Systems*), academic credentials (*BSc in Industrial Statistics & Mathematical Finance, University of Colombo – Officially Graduated*), core skills, and quick CV access.
 - **Strict Content Fidelity**: Accurate employment timeline with E Screen Systems highlighted prominently as Current, and Ansell Textiles Lanka and Hela Clothing accurately designated as Previous. Zero fabricated metrics or clients.
 - **Interactive Abstract BI Dashboard Visual**: Custom glassmorphic analytics environment showcasing live KPI metrics, operational variance trends, and the 5-stage transformation framework (`Data → Analysis → Insight → Business Decision → Process Improvement`).
 - **Deep-Dive Featured Case Studies**:

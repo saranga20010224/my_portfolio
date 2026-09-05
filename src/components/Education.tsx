@@ -30,7 +30,7 @@ export const Education: React.FC = () => {
             <div className="space-y-1">
               <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-blue-100 dark:bg-blue-950 text-blue-800 dark:text-blue-300 text-xs font-bold uppercase tracking-wider">
                 <GraduationCap className="w-3.5 h-3.5 mr-1" />
-                Undergraduate Degree
+                Bachelor's Degree &bull; Officially Graduated
               </div>
               <h3 className="text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-white tracking-tight pt-1">
                 {degree.degree}

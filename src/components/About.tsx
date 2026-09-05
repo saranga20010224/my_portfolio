@@ -108,7 +108,7 @@ export const About: React.FC = () => {
               <div className="mt-6 pt-4 border-t border-slate-200 dark:border-slate-800 flex flex-wrap items-center gap-6 text-xs text-slate-600 dark:text-slate-300">
                 <div className="flex items-center space-x-2 font-medium">
                   <span className="w-2 h-2 rounded-full bg-blue-600"></span>
-                  <span>BSc. Industrial Statistics & Math Finance &bull; University of Colombo</span>
+                  <span>BSc in Industrial Statistics and Mathematical Finance, University of Colombo</span>
                 </div>
                 <div className="flex items-center space-x-2 font-medium">
                   <span className="w-2 h-2 rounded-full bg-emerald-500"></span>
@@ -158,7 +158,7 @@ export const About: React.FC = () => {
               <div className="space-y-1">
                 <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-blue-100 dark:bg-blue-950 text-blue-800 dark:text-blue-300 text-xs font-bold uppercase tracking-wider">
                   <GraduationCap className="w-3.5 h-3.5 mr-1" />
-                  Undergraduate Degree
+                  Bachelor's Degree &bull; Officially Graduated
                 </div>
                 <h4 className="text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-white tracking-tight pt-1">
                   {degree.degree}

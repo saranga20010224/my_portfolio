@@ -96,10 +96,10 @@ export const HeroVisual: React.FC = () => {
             </div>
             <div className="overflow-hidden">
               <span className="block text-[10px] uppercase font-bold text-teal-600 dark:text-teal-400 tracking-wider">
-                Academic Rigor
+                Officially Graduated
               </span>
               <span className="block text-xs font-extrabold text-slate-900 dark:text-white truncate">
-                BSc. Industrial Statistics
+                BSc in Industrial Statistics
               </span>
               <span className="block text-[11px] font-medium text-slate-500 dark:text-slate-400 truncate">
                 University of Colombo
