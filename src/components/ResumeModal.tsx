@@ -173,7 +173,7 @@ export const ResumeModal: React.FC<ResumeModalProps> = ({ isOpen, onClose }) => 
                     </span>
                   </div>
                   <div className="text-xs font-semibold text-blue-600 dark:text-blue-400">
-                    {edu.institution} &bull; {edu.status}
+                    {edu.institution}{edu.degreeType ? ` (${edu.degreeType})` : ''} &bull; {edu.status}
                   </div>
                   {edu.relevantAreas && (
                     <div className="text-xs text-slate-500 dark:text-slate-400 mt-1">

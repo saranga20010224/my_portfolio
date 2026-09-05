@@ -158,7 +158,7 @@ export const PROFILE_DATA = {
       id: "academic-background",
       label: "Academic Background",
       value: "Graduate | Industrial Statistics & Math Finance",
-      subValue: "BSc — University of Colombo (2022 – 2026)",
+      subValue: "Three-Year General Degree • University of Colombo (2023 – 2026)",
       iconName: "GraduationCap"
     }
   ] as SnapshotItem[],

@@ -20,13 +20,13 @@ export const CAREER_JOURNEY: JourneyStep[] = [
     tags: ["Physical Science", "Combined Mathematics", "Analytical Foundations"]
   },
   {
-    year: "2022 – 2026",
+    year: "2023 – 2026",
     title: "BSc in Industrial Statistics and Mathematical Finance",
-    subtitle: "University of Colombo (Officially Graduated – 2026)",
+    subtitle: "University of Colombo (Three-Year General Degree)",
     category: "Academic",
-    description: "Officially graduated with a multidisciplinary honors degree integrating core statistics, mathematical finance, database systems, Python programming, and data analytics.",
+    description: "Officially graduated with a multidisciplinary three-year general degree integrating core statistics, mathematical finance, database systems, Python programming, and data analytics.",
     iconName: "GraduationCap",
-    tags: ["Statistics", "Mathematical Finance", "SQL & Databases", "Python"]
+    tags: ["Three-Year General Degree", "Statistics", "Mathematical Finance", "SQL & Databases", "Python"]
   },
   {
     year: "2025",
