@@ -39,11 +39,11 @@ export const CurrentRole: React.FC = () => {
   };
 
   return (
-    <section id="current-role" className="py-16 md:py-24 bg-white dark:bg-slateDark-900/50 border-t border-slate-200/80 dark:border-slate-800">
+    <section id="current-role" className="py-10 md:py-14 bg-white dark:bg-slateDark-900/50 border-t border-slate-200/80 dark:border-slate-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Header with Live Badge */}
-        <div className="flex flex-col md:flex-row md:items-end justify-between mb-12">
+        <div className="flex flex-col md:flex-row md:items-end justify-between mb-8">
           <div>
             <div className="inline-flex items-center space-x-2 px-3.5 py-1 rounded-full text-xs font-semibold uppercase tracking-wider text-emerald-700 dark:text-emerald-300 bg-emerald-50 dark:bg-emerald-950/60 border border-emerald-200 dark:border-emerald-800/80 mb-3 animate-pulse-subtle">
               <span className="w-2 h-2 rounded-full bg-emerald-500"></span>

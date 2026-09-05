@@ -10,11 +10,11 @@ export const Experience: React.FC = () => {
   const previousExperiences = EXPERIENCES.filter((e) => !e.isCurrent);
 
   return (
-    <section id="experience" className="py-16 md:py-24 bg-slate-50 dark:bg-slateDark-900 border-t border-slate-200/80 dark:border-slate-800">
+    <section id="experience" className="py-10 md:py-14 bg-slate-50 dark:bg-slateDark-900 border-t border-slate-200/80 dark:border-slate-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Header */}
-        <div className="max-w-3xl mb-12">
+        <div className="max-w-3xl mb-8">
           <span className="text-xs font-bold uppercase tracking-wider text-blue-600 dark:text-blue-400">
             Career Progression
           </span>

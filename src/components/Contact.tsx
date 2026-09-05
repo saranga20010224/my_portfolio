@@ -63,11 +63,11 @@ export const Contact: React.FC = () => {
   };
 
   return (
-    <section id="contact" className="py-16 md:py-24 bg-white dark:bg-slateDark-900 border-t border-slate-200/80 dark:border-slate-800">
+    <section id="contact" className="py-10 md:py-14 bg-white dark:bg-slateDark-900 border-t border-slate-200/80 dark:border-slate-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Header */}
-        <div className="max-w-3xl mb-16">
+        <div className="max-w-3xl mb-8">
           <span className="text-xs font-bold uppercase tracking-wider text-blue-600 dark:text-blue-400">
             Get In Touch
           </span>
@@ -79,7 +79,7 @@ export const Contact: React.FC = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
           
           {/* Left Column: Direct CTAs & Channels */}
           <div className="lg:col-span-5 space-y-6">

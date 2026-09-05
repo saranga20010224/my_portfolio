@@ -30,11 +30,11 @@ export const About: React.FC = () => {
   };
 
   return (
-    <section id="about" className="py-16 md:py-24 border-t border-slate-200/80 dark:border-slate-800/80 bg-white dark:bg-slateDark-900/50">
+    <section id="about" className="py-10 md:py-14 border-t border-slate-200/80 dark:border-slate-800/80 bg-white dark:bg-slateDark-900/50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Header */}
-        <div className="text-center max-w-3xl mx-auto mb-14">
+        <div className="text-center max-w-3xl mx-auto mb-8">
           <span className="text-xs font-bold uppercase tracking-wider text-blue-600 dark:text-blue-400">
             Professional Profile
           </span>
@@ -47,7 +47,7 @@ export const About: React.FC = () => {
         </div>
 
         {/* 3 Structured Professional Identity Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-5 mb-8">
           {pillars.map((pillar) => (
             <div
               key={pillar.title}
@@ -85,7 +85,7 @@ export const About: React.FC = () => {
         </div>
 
         {/* "About My Journey" Structured Block with Profile Photo */}
-        <div className="p-8 sm:p-10 rounded-3xl bg-slate-50 dark:bg-slateDark-850 border border-slate-200 dark:border-slate-800 shadow-sm">
+        <div className="p-6 sm:p-8 rounded-3xl bg-slate-50 dark:bg-slateDark-850 border border-slate-200 dark:border-slate-800 shadow-sm">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
             
             <div className="lg:col-span-8">
@@ -98,14 +98,14 @@ export const About: React.FC = () => {
                 {myJourney.title}
               </h3>
 
-              <div className="space-y-4 mt-4 text-sm sm:text-base text-slate-600 dark:text-slate-300 leading-relaxed">
+              <div className="space-y-3 mt-3 text-sm sm:text-base text-slate-600 dark:text-slate-300 leading-relaxed">
                 {myJourney.paragraphs.map((p, idx) => (
                   <p key={idx}>{p}</p>
                 ))}
               </div>
 
               {/* Quick Summary Strip */}
-              <div className="mt-8 pt-6 border-t border-slate-200 dark:border-slate-800 flex flex-wrap items-center gap-6 text-xs text-slate-600 dark:text-slate-300">
+              <div className="mt-6 pt-4 border-t border-slate-200 dark:border-slate-800 flex flex-wrap items-center gap-6 text-xs text-slate-600 dark:text-slate-300">
                 <div className="flex items-center space-x-2 font-medium">
                   <span className="w-2 h-2 rounded-full bg-blue-600"></span>
                   <span>BSc. Industrial Statistics & Math Finance &bull; University of Colombo</span>
@@ -119,7 +119,7 @@ export const About: React.FC = () => {
 
             {/* Profile Photo Thumbnail */}
             <div className="lg:col-span-4 flex justify-center">
-              <div className="relative w-48 h-48 sm:w-56 sm:h-56 rounded-3xl p-1.5 bg-gradient-to-tr from-blue-600 to-sky-400 shadow-xl">
+              <div className="relative w-44 h-44 sm:w-52 sm:h-52 rounded-3xl p-1.5 bg-gradient-to-tr from-blue-600 to-sky-400 shadow-xl">
                 <div className="w-full h-full rounded-[22px] overflow-hidden bg-slate-900 border-2 border-white dark:border-slate-800">
                   <img
                     src="/images/saranga-profile.png"
@@ -137,8 +137,8 @@ export const About: React.FC = () => {
         </div>
 
         {/* Education & Academic Background (Placed after About My Journey) */}
-        <div id="education" className="mt-12 pt-12 border-t border-slate-200/80 dark:border-slate-800">
-          <div className="max-w-3xl mb-8">
+        <div id="education" className="mt-8 pt-8 border-t border-slate-200/80 dark:border-slate-800">
+          <div className="max-w-3xl mb-6">
             <span className="text-xs font-bold uppercase tracking-wider text-blue-600 dark:text-blue-400">
               Academic Background
             </span>

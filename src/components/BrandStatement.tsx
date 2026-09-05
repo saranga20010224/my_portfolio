@@ -13,7 +13,7 @@ export const BrandStatement: React.FC = () => {
   ];
 
   return (
-    <section className="py-16 md:py-20 relative overflow-hidden bg-navy-950 text-white">
+    <section className="py-10 md:py-14 relative overflow-hidden bg-navy-950 text-white">
       {/* Background accents */}
       <div className="absolute top-0 right-1/4 w-96 h-96 bg-blue-600/10 rounded-full blur-3xl pointer-events-none" />
       <div className="absolute bottom-0 left-1/4 w-96 h-96 bg-sky-500/10 rounded-full blur-3xl pointer-events-none" />

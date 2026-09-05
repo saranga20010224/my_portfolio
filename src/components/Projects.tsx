@@ -16,11 +16,11 @@ export const Projects: React.FC<ProjectsProps> = ({ onSelectProject }) => {
   }, [selectedCategory]);
 
   return (
-    <section id="projects" className="py-16 md:py-24 bg-white dark:bg-slateDark-900 border-t border-slate-200/80 dark:border-slate-800">
+    <section id="projects" className="py-10 md:py-14 bg-white dark:bg-slateDark-900 border-t border-slate-200/80 dark:border-slate-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Header */}
-        <div className="flex flex-col md:flex-row md:items-end justify-between mb-10">
+        <div className="flex flex-col md:flex-row md:items-end justify-between mb-6">
           <div className="max-w-2xl">
             <div className="inline-flex items-center space-x-2 text-xs font-bold uppercase tracking-wider text-blue-600 dark:text-blue-400 mb-2">
               <Sparkles className="w-3.5 h-3.5" />
@@ -40,7 +40,7 @@ export const Projects: React.FC<ProjectsProps> = ({ onSelectProject }) => {
         </div>
 
         {/* Category Filter Pills */}
-        <div className="flex flex-wrap items-center gap-2 mb-12 pb-2">
+        <div className="flex flex-wrap items-center gap-2 mb-6 pb-1">
           {PROJECT_CATEGORIES.map((category) => {
             const isSelected = selectedCategory === category;
             return (

@@ -29,11 +29,11 @@ export const Journey: React.FC = () => {
   };
 
   return (
-    <section id="journey" className="py-16 md:py-24 bg-slate-50 dark:bg-slateDark-900 border-t border-slate-200/80 dark:border-slate-800">
+    <section id="journey" className="py-10 md:py-14 bg-slate-50 dark:bg-slateDark-900 border-t border-slate-200/80 dark:border-slate-800">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Header */}
-        <div className="text-center max-w-3xl mx-auto mb-16">
+        <div className="text-center max-w-3xl mx-auto mb-8">
           <span className="text-xs font-bold uppercase tracking-wider text-blue-600 dark:text-blue-400">
             Chronology
           </span>

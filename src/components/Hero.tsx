@@ -10,7 +10,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenResumeModal }) => {
   return (
     <section
       id="home"
-      className="relative pt-32 pb-20 md:pt-40 md:pb-28 overflow-hidden bi-grid-pattern"
+      className="relative pt-24 pb-12 md:pt-32 md:pb-16 overflow-hidden bi-grid-pattern"
     >
       {/* Background ambient gradient glow blobs (inspired by reference portfolio) */}
       <div className="absolute top-1/4 left-1/4 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-blue-500/10 dark:bg-blue-600/15 rounded-full blur-3xl pointer-events-none" />
@@ -20,7 +20,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenResumeModal }) => {
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
         
         {/* Current Professional Status Badge */}
-        <div className="inline-flex items-center space-x-2 px-4 py-1.5 rounded-full bg-blue-50 dark:bg-blue-950/60 border border-blue-200/80 dark:border-blue-800/70 text-xs font-semibold text-blue-800 dark:text-blue-300 shadow-xs mb-8 animate-pulse-subtle">
+        <div className="inline-flex items-center space-x-2 px-4 py-1.5 rounded-full bg-blue-50 dark:bg-blue-950/60 border border-blue-200/80 dark:border-blue-800/70 text-xs font-semibold text-blue-800 dark:text-blue-300 shadow-xs mb-5 animate-pulse-subtle">
           <span className="w-2 h-2 rounded-full bg-emerald-500 animate-ping"></span>
           <span className="w-2 h-2 -ml-3 rounded-full bg-emerald-500"></span>
           <span>{PROFILE_DATA.currentRoleBadge}</span>
@@ -35,23 +35,23 @@ export const Hero: React.FC<HeroProps> = ({ onOpenResumeModal }) => {
         </h1>
 
         {/* Professional Subtitle */}
-        <p className="mt-5 text-base sm:text-lg md:text-xl font-bold text-slate-700 dark:text-slate-200 tracking-tight">
+        <p className="mt-3 text-base sm:text-lg md:text-xl font-bold text-slate-700 dark:text-slate-200 tracking-tight">
           {PROFILE_DATA.roleTitle}
         </p>
 
         {/* Supporting Description */}
-        <p className="mt-5 text-base sm:text-lg text-slate-600 dark:text-slate-300 max-w-3xl mx-auto leading-relaxed font-normal">
+        <p className="mt-3 text-base sm:text-lg text-slate-600 dark:text-slate-300 max-w-3xl mx-auto leading-relaxed font-normal">
           {PROFILE_DATA.summary}
         </p>
 
         {/* Context Highlight Note */}
-        <div className="mt-6 inline-flex items-center space-x-2.5 p-3 px-5 rounded-2xl bg-white/80 dark:bg-slateDark-850/80 border border-slate-200/80 dark:border-slate-800 text-xs sm:text-sm text-slate-700 dark:text-slate-300 shadow-xs backdrop-blur-sm max-w-2xl mx-auto">
+        <div className="mt-5 inline-flex items-center space-x-2.5 p-3 px-5 rounded-2xl bg-white/80 dark:bg-slateDark-850/80 border border-slate-200/80 dark:border-slate-800 text-xs sm:text-sm text-slate-700 dark:text-slate-300 shadow-xs backdrop-blur-sm max-w-2xl mx-auto">
           <Sparkles className="w-4 h-4 text-blue-600 dark:text-blue-400 shrink-0" />
           <span>{PROFILE_DATA.currentRoleHeroLine}</span>
         </div>
 
         {/* Call to Action Buttons (Centered Side-by-Side) */}
-        <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
+        <div className="mt-6 flex flex-wrap items-center justify-center gap-4">
           
           {/* Primary CTA: View My Work */}
           <a
@@ -83,7 +83,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenResumeModal }) => {
         </div>
 
         {/* Social Links Ribbon */}
-        <div className="mt-10 pt-6 border-t border-slate-200/70 dark:border-slate-800/80 inline-flex items-center space-x-6 text-slate-500 dark:text-slate-400 text-xs">
+        <div className="mt-8 pt-5 border-t border-slate-200/70 dark:border-slate-800/80 inline-flex items-center space-x-6 text-slate-500 dark:text-slate-400 text-xs">
           <span className="font-semibold uppercase tracking-wider text-[11px]">Connect:</span>
           
           <div className="flex items-center space-x-3">

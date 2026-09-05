@@ -6,11 +6,11 @@ export const Education: React.FC = () => {
   const [degree, highSchool] = EDUCATION_DATA;
 
   return (
-    <section id="education" className="py-16 md:py-24 bg-white dark:bg-slateDark-900 border-t border-slate-200/80 dark:border-slate-800">
+    <section id="education" className="py-10 md:py-14 bg-white dark:bg-slateDark-900 border-t border-slate-200/80 dark:border-slate-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Header */}
-        <div className="max-w-3xl mb-12">
+        <div className="max-w-3xl mb-8">
           <span className="text-xs font-bold uppercase tracking-wider text-blue-600 dark:text-blue-400">
             Academic Background
           </span>

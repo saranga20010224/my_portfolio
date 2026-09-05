@@ -54,11 +54,11 @@ export const Skills: React.FC = () => {
   };
 
   return (
-    <section id="skills" className="py-16 md:py-24 bg-slate-50 dark:bg-slateDark-900 border-t border-slate-200/80 dark:border-slate-800">
+    <section id="skills" className="py-10 md:py-14 bg-slate-50 dark:bg-slateDark-900 border-t border-slate-200/80 dark:border-slate-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Header */}
-        <div className="max-w-3xl mb-12">
+        <div className="max-w-3xl mb-8">
           <span className="text-xs font-bold uppercase tracking-wider text-blue-600 dark:text-blue-400">
             Technical Stack
           </span>
@@ -71,7 +71,7 @@ export const Skills: React.FC = () => {
         </div>
 
         {/* Featured Visual Tech Ribbon */}
-        <div className="mb-14 p-6 sm:p-8 rounded-3xl bg-white dark:bg-slateDark-850 border border-slate-200 dark:border-slate-800 shadow-sm">
+        <div className="mb-8 p-5 sm:p-6 rounded-3xl bg-white dark:bg-slateDark-850 border border-slate-200 dark:border-slate-800 shadow-sm">
           <div className="flex flex-col sm:flex-row sm:items-center justify-between mb-6 pb-4 border-b border-slate-200/80 dark:border-slate-800">
             <div>
               <h3 className="text-lg font-bold text-slate-900 dark:text-white flex items-center space-x-2">
