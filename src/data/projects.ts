@@ -30,6 +30,7 @@ export interface ProjectItem {
   tools: string[];
   description: string;
   githubUrl?: string;
+  imageUrl?: string;
   metrics: ProjectMetricPreview[];
   visualType: 'customer' | 'procurement' | 'supermarket' | 'apparel';
   abstractHighlights: string[];
@@ -56,57 +57,60 @@ export const PROJECTS: ProjectItem[] = [
   {
     id: "customer-shopping-behavior",
     title: "Customer Shopping Behavior Analytics Dashboard",
-    subtitle: "End-to-End Customer Demographics, Revenue & Purchasing Patterns",
+    subtitle: "End to End Data Analytics Project using Python, SQL Server, and Power BI",
     category: "Data Analytics | Power BI",
     filterTags: ["ALL", "DATA ANALYTICS", "POWER BI", "BUSINESS ANALYSIS", "SQL / DATA"],
-    tools: ["Python", "Pandas", "SQL Server", "Power BI", "Excel"],
-    githubUrl: "https://github.com/saranga-rathnayaka",
+    tools: ["Python (Pandas)", "SQL Server", "Power BI", "SQL", "Jupyter Notebook", "Excel"],
+    githubUrl: "https://github.com/saranga20010224/Customer-Shopping-Behavior-Analysis",
+    imageUrl: "/images/projects/customer-shopping-behavior-dashboard.png",
     description:
-      "A complete analytics workflow involving data cleaning, feature engineering, exploratory data analysis, SQL-based analysis, and Power BI dashboard development to analyze customer behavior, revenue, demographics, product performance, and subscription patterns.",
+      "An end-to-end Data Analytics project demonstrating a complete analytics pipeline from raw CSV data to Python data cleaning & EDA, SQL Server database querying, and an interactive Power BI dashboard. Analyzes customer purchasing patterns, revenue drivers, demographic distributions, product category performance, and subscription adoption.",
     metrics: [
-      { label: "Data Pipeline", value: "Python + SQL", type: "highlight" },
-      { label: "Key Dimensions", value: "Demographics & Revenue", type: "neutral" },
-      { label: "Analysis Scope", value: "Purchase Trends", type: "positive" },
-      { label: "Interface", value: "Power BI KPI Deck", type: "neutral" }
+      { label: "Total Revenue", value: "$59K", type: "highlight" },
+      { label: "Customer Base", value: "971 Shoppers", type: "neutral" },
+      { label: "Top Category", value: "Clothing ($27K)", type: "positive" },
+      { label: "Data Pipeline", value: "Python → SQL → Power BI", type: "highlight" }
     ],
     visualType: "customer",
     abstractHighlights: [
-      "Customer demographics & age brackets",
-      "Revenue by category & product performance",
-      "Subscription vs. non-subscription patterns",
-      "Purchasing frequency & review ratings"
+      "Raw CSV data cleaning & feature engineering with Python (Pandas)",
+      "Relational database creation & analytical querying in SQL Server",
+      "Interactive Power BI dashboard with dynamic slicers & KPIs",
+      "Customer demographic, subscription & category revenue insights"
     ],
     chartPreview: {
       chartType: "bar",
-      chartTitle: "Revenue Analysis by Customer Segment & Category",
-      legend: ["Demographics", "Frequency", "Revenue"],
+      chartTitle: "Revenue Contribution by Product Category",
+      legend: ["Clothing", "Accessories", "Footwear", "Outerwear"],
       bars: [
-        { label: "Apparel", height: 78, color: "bg-blue-600" },
-        { label: "Footwear", height: 62, color: "bg-sky-500" },
-        { label: "Accessories", height: 48, color: "bg-indigo-500" },
-        { label: "Outerwear", height: 70, color: "bg-blue-500" },
-        { label: "Cosmetics", height: 54, color: "bg-cyan-600" }
+        { label: "Clothing", height: 85, color: "bg-blue-600" },
+        { label: "Accessories", height: 56, color: "bg-sky-500" },
+        { label: "Footwear", height: 26, color: "bg-indigo-500" },
+        { label: "Outerwear", height: 16, color: "bg-cyan-600" }
       ]
     },
     caseStudy: {
       problem:
-        "Retail commercial and marketing teams lacked consolidated visibility into customer purchasing behaviors across age demographics, subscription adoption tiers, and seasonal product category preferences. The goal was to connect raw transaction databases to actionable marketing and retention strategies.",
+        "Retail organizations require clear, data-driven visibility into customer shopping behavior to optimize sales, marketing, and inventory strategies. The business objective was to analyze raw customer transaction records to identify top revenue-generating categories, understand customer demographics and age segments, evaluate the relationship between subscriptions and customer purchasing habits, and measure customer satisfaction through review ratings.",
       approach: [
-        "Ingested and cleansed transaction records with Python & Pandas, treating missing values and normalizing attributes",
-        "Engineered behavioral features such as frequency quartiles, subscription segments, and spending brackets",
-        "Built optimized relational queries in Microsoft SQL Server to aggregate demographic revenue lines",
-        "Constructed an interactive Power BI dashboard featuring dynamic slicers and DAX measure formulation"
+        "Data Preparation in Python: Handled missing values in review ratings, standardized column names, removed redundant fields, checked data quality issues, and performed exploratory data analysis (EDA) using Pandas",
+        "Feature Engineering: Created customer age groups (Young Adult, Adult, Middle-aged, Senior), converted purchase frequency into numerical values, and derived additional analytical variables",
+        "Database Development in SQL Server: Created the customer_behavior database, imported cleaned data into the customer table, and wrote business-focused SQL queries to aggregate and analyze data",
+        "Business Intelligence in Power BI: Developed an interactive dashboard featuring dynamic slicers (Season, Category, Gender, Shipping Type), KPI cards, category revenue breakdowns, demographic distributions, and subscription status"
       ],
-      toolsAndTech: ["Python", "Pandas", "SQL Server", "Power BI", "Excel"],
+      toolsAndTech: ["Python (Pandas)", "Jupyter Notebook", "Microsoft SQL Server", "SQL", "Power BI", "Excel"],
       analysis: [
-        "Exploratory Data Analysis (EDA) investigating customer age distribution and geographical clusters",
-        "Comparative revenue evaluation between subscribed members and non-subscription shoppers",
-        "Product category performance tracking against seasonal promotional campaigns",
-        "Customer review rating distributions correlated with repeat purchase frequency"
+        "Revenue analysis by product category, establishing Clothing ($27K) and Accessories ($18K) as the primary revenue drivers",
+        "Gender-based revenue distribution showing male shoppers contributed the majority of sales revenue (68.67% / $40K)",
+        "Customer age segmentation identifying Young Adult (267) and Adult (245) as the dominant demographic cohorts",
+        "SQL-based customer segmentation categorizing shoppers into New, Returning, and Loyal tiers based on previous purchase frequency",
+        "Subscription pattern evaluation revealing 73.84% (717) non-subscribers versus 26.16% (254) subscribers, identifying a key retention target",
+        "Average purchase value analysis across shipping types and product review rating consistency tracking across categories (3.7 - 3.8 avg rating)"
       ],
-      keyInsights: "Project insights can be added here.",
+      keyInsights:
+        "Clothing generated the highest revenue contribution ($27K), followed by Accessories ($18K). Male customers contributed 68.67% ($40K) of total revenue, with most shoppers in the Young Adult and Adult segments. Non-subscribers represented 73.84% of customers, highlighting an opportunity for loyalty conversion. Customer product ratings remained consistent across all categories (3.7 - 3.8 out of 5).",
       businessValue:
-        "Provided marketing and commercial leaders with transparent consumer behavior data, enabling data-driven customer segmentation, promotional timing alignment, and retention strategies."
+        "Equipped retail decision-makers with transparent, interactive visibility into customer purchasing drivers, demographic preferences, and subscription trends—enabling targeted promotional strategies, improved product assortment planning, and data-driven customer loyalty initiatives."
     }
   },
   {
