@@ -2,7 +2,6 @@ export interface EducationItem {
   id: string;
   degree: string;
   institution: string;
-  degreeType?: string;
   period: string;
   status: string;
   location: string;
@@ -25,7 +24,6 @@ export const EDUCATION_DATA: EducationItem[] = [
     id: "uoc",
     degree: "BSc in Industrial Statistics and Mathematical Finance",
     institution: "University of Colombo",
-    degreeType: "Three-Year General Degree",
     period: "2023 – 2026",
     status: "Officially Graduated – 2026",
     location: "Colombo, Sri Lanka",
@@ -41,7 +39,7 @@ export const EDUCATION_DATA: EducationItem[] = [
       "Programming"
     ],
     description:
-      "A rigorous multidisciplinary three-year general degree synthesizing core statistical theory, applied mathematical finance, computational methods, database management systems, and practical data analytics."
+      "A rigorous multidisciplinary university degree synthesizing core statistical theory, applied mathematical finance, computational methods, database management systems, and practical data analytics."
   },
   {
     id: "ssc",
