@@ -31,7 +31,7 @@ export const CAREER_JOURNEY: JourneyStep[] = [
   {
     year: "2025",
     title: "Intern – Operations (Data Focus)",
-    subtitle: "Hela Clothing (Pvt) Ltd (August 2025 – January 2026)",
+    subtitle: "Hela Clothing – Head Office (August 2025 – January 2026)",
     category: "Experience",
     description: "Designed and deployed interactive Power BI dashboards for operational KPIs, analyzed manufacturing datasets, and worked with SAP-generated operational records.",
     iconName: "Activity",
@@ -40,7 +40,7 @@ export const CAREER_JOURNEY: JourneyStep[] = [
   {
     year: "2026",
     title: "Data Analyst Intern",
-    subtitle: "Ansell Textiles Lanka (Pvt) Ltd",
+    subtitle: "Ansell",
     category: "Experience",
     description: "Extracted, cleaned, and validated enterprise data; developed Power BI dashboards; and analyzed workforce and payroll records with Oracle systems and PeopleHR HRIS.",
     iconName: "BarChart3",
@@ -49,7 +49,7 @@ export const CAREER_JOURNEY: JourneyStep[] = [
   {
     year: "Current",
     title: "Trainee Business Analyst",
-    subtitle: "E Screen Systems",
+    subtitle: "E-Screen Systems",
     category: "Current",
     isCurrent: true,
     description: "Developing Power BI dashboards across Finance, Marketing, and Production; tracking departmental KPIs; understanding business requirements; and delivering digital solutions to improve production process accuracy.",

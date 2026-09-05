@@ -77,7 +77,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenResumeModal }) => {
               Curriculum Vitae
             </div>
             <p className="text-slate-400">
-              Trainee Business Analyst at E Screen Systems.
+              Trainee Business Analyst at E-Screen Systems.
             </p>
             <div className="pt-1 flex flex-col space-y-2">
               <button

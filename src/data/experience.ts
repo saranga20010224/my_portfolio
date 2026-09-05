@@ -65,11 +65,11 @@ export const EXPERIENCES: ExperienceItem[] = [
   {
     id: "escreen",
     role: "Trainee Business Analyst",
-    company: "E Screen Systems",
+    company: "E-Screen Systems",
     period: "Present",
     isCurrent: true,
     type: "Trainee",
-    location: "Sri Lanka",
+    location: "Nugegoda, Sri Lanka",
     mainFocus: [
       "Business Analysis",
       "Power BI",
@@ -96,12 +96,12 @@ export const EXPERIENCES: ExperienceItem[] = [
   {
     id: "ansell",
     role: "Data Analyst Intern",
-    company: "Ansell Textiles Lanka (Pvt) Ltd",
-    companySubtitle: "Global leader in protection solutions & advanced textile manufacturing",
+    company: "Ansell",
+    companySubtitle: "Ansell Textiles Lanka (Pvt) Ltd • Global leader in protection solutions",
     period: "Previous",
     isCurrent: false,
     type: "Internship",
-    location: "Sri Lanka",
+    location: "Seeduwa, Sri Lanka",
     mainFocus: [
       "Power BI Dashboards",
       "HR Payroll Analytics",
@@ -123,12 +123,12 @@ export const EXPERIENCES: ExperienceItem[] = [
   {
     id: "hela",
     role: "Intern – Operations (Data Focus)",
-    company: "Hela Clothing (Pvt) Ltd",
+    company: "Hela Clothing – Head Office",
     companySubtitle: "Leading multinational apparel manufacturer",
     period: "August 2025 – January 2026",
     isCurrent: false,
     type: "Internship",
-    location: "Sri Lanka",
+    location: "Nugegoda, Sri Lanka",
     mainFocus: [
       "Operational KPIs",
       "Manufacturing Analytics",

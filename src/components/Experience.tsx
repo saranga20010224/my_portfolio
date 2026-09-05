@@ -65,6 +65,10 @@ export const Experience: React.FC = () => {
                         <p className="text-sm font-semibold text-blue-600 dark:text-blue-400">
                           {exp.company}
                         </p>
+                        <div className="flex items-center space-x-1.5 text-xs text-slate-500 dark:text-slate-400 mt-1">
+                          <MapPin className="w-3.5 h-3.5 text-slate-400 dark:text-slate-500 shrink-0" />
+                          <span>{exp.location}</span>
+                        </div>
                       </div>
                       <ChevronRight
                         className={`w-5 h-5 transition-transform ${
@@ -111,6 +115,10 @@ export const Experience: React.FC = () => {
                           <p className="text-sm font-semibold text-slate-700 dark:text-slate-300">
                             {exp.company}
                           </p>
+                          <div className="flex items-center space-x-1.5 text-xs text-slate-500 dark:text-slate-400 mt-1">
+                            <MapPin className="w-3.5 h-3.5 text-slate-400 dark:text-slate-500 shrink-0" />
+                            <span>{exp.location}</span>
+                          </div>
                         </div>
                         <ChevronRight
                           className={`w-5 h-5 transition-transform ${
@@ -158,16 +166,16 @@ export const Experience: React.FC = () => {
                       {selectedExp.companySubtitle}
                     </p>
                   )}
+                  <div className="flex items-center space-x-1.5 text-xs text-slate-500 dark:text-slate-400 mt-1.5">
+                    <MapPin className="w-3.5 h-3.5 text-slate-400 dark:text-slate-500 shrink-0" />
+                    <span>{selectedExp.location}</span>
+                  </div>
                 </div>
 
-                <div className="flex flex-col items-end text-xs text-slate-500 dark:text-slate-400 space-y-1">
+                <div className="flex flex-col items-end text-xs text-slate-500 dark:text-slate-400">
                   <div className="flex items-center space-x-1.5 font-medium bg-slate-100 dark:bg-slate-800 px-3 py-1 rounded-lg">
                     <Calendar className="w-3.5 h-3.5" />
                     <span>{selectedExp.period}</span>
-                  </div>
-                  <div className="flex items-center space-x-1">
-                    <MapPin className="w-3 h-3" />
-                    <span>{selectedExp.location}</span>
                   </div>
                 </div>
               </div>

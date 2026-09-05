@@ -112,7 +112,7 @@ export const About: React.FC = () => {
                 </div>
                 <div className="flex items-center space-x-2 font-medium">
                   <span className="w-2 h-2 rounded-full bg-emerald-500"></span>
-                  <span>Trainee Business Analyst &bull; E Screen Systems</span>
+                  <span>Trainee Business Analyst &bull; E-Screen Systems</span>
                 </div>
               </div>
             </div>

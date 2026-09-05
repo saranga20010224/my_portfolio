@@ -54,7 +54,7 @@ export const CurrentRole: React.FC = () => {
             </h2>
             <p className="text-xl font-bold text-blue-600 dark:text-blue-400 mt-1">
               Trainee Business Analyst &mdash;{' '}
-              <span className="text-slate-900 dark:text-white">E Screen Systems</span>
+              <span className="text-slate-900 dark:text-white">E-Screen Systems</span>
             </p>
           </div>
 
@@ -78,7 +78,7 @@ export const CurrentRole: React.FC = () => {
                     {getIcon(item.iconName)}
                   </div>
                   <span className="text-[10px] font-mono uppercase text-slate-400">
-                    E Screen Systems
+                    E-Screen Systems
                   </span>
                 </div>
 

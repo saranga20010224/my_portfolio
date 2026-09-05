@@ -62,7 +62,7 @@ export const HeroVisual: React.FC = () => {
                 Trainee Business Analyst
               </span>
               <span className="block text-[11px] font-medium text-slate-500 dark:text-slate-400 truncate">
-                E Screen Systems
+                E-Screen Systems
               </span>
             </div>
           </div>
