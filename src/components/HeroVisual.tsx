@@ -29,12 +29,12 @@ export const HeroVisual: React.FC = () => {
           
           <div className="w-full h-full rounded-full overflow-hidden bg-slate-900 border-4 border-white dark:border-slateDark-900 shadow-inner relative group">
             <img
-              src="/images/profile-new.jpg"
+              src="./images/profile-new.jpg"
               alt="Saranga Rathnayaka — Business Analyst & Data Analyst"
               className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
               onError={(e) => {
                 // Fallback to clean headshot if path differs
-                (e.target as HTMLImageElement).src = '/images/saranga-headshot-clean.png';
+                (e.target as HTMLImageElement).src = './images/saranga-headshot-clean.png';
               }}
             />
             {/* Subtle overlay gradient at the base */}

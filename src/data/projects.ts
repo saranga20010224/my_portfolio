@@ -62,7 +62,7 @@ export const PROJECTS: ProjectItem[] = [
     filterTags: ["ALL", "DATA ANALYTICS", "POWER BI", "BUSINESS ANALYSIS", "SQL / DATA"],
     tools: ["Python (Pandas)", "SQL Server", "Power BI", "SQL", "Jupyter Notebook", "Excel"],
     githubUrl: "https://github.com/saranga20010224/Customer-Shopping-Behavior-Analysis",
-    imageUrl: "/images/projects/customer-shopping-behavior-dashboard.png",
+    imageUrl: "./images/projects/customer-shopping-behavior-dashboard.png",
     description:
       "An end-to-end Data Analytics project demonstrating a complete analytics pipeline from raw CSV data to Python data cleaning & EDA, SQL Server database querying, and an interactive Power BI dashboard. Analyzes customer purchasing patterns, revenue drivers, demographic distributions, product category performance, and subscription adoption.",
     metrics: [
@@ -120,7 +120,7 @@ export const PROJECTS: ProjectItem[] = [
     category: "Business Analytics | Operations Analytics",
     filterTags: ["ALL", "BUSINESS ANALYSIS", "OPERATIONS ANALYTICS", "POWER BI"],
     tools: ["Power BI", "SPSS", "SAP", "Excel"],
-    imageUrl: "/images/projects/po-delay-analysis.png",
+    imageUrl: "./images/projects/po-delay-analysis.png",
     githubUrl: "https://github.com/saranga20010224/FS-3001---Internship-Research-Project",
     description:
       "An operational analytics project analyzing Purchase Order creation delays using SAP procurement data. The project identifies delay patterns across customers and plants and applies statistical techniques including ANOVA and Chi-Square analysis to investigate operational factors.",
@@ -179,7 +179,7 @@ export const PROJECTS: ProjectItem[] = [
     filterTags: ["ALL", "POWER BI", "BUSINESS ANALYSIS", "DATA ANALYTICS"],
     tools: ["Power BI", "Power Query", "DAX", "Excel"],
     githubUrl: "https://github.com/saranga20010224/Supermarket-Sales-Dashboard",
-    imageUrl: "/images/projects/supermarket-sales-dashboard.png",
+    imageUrl: "./images/projects/supermarket-sales-dashboard.png",
     description:
       "Interactive supermarket sales dashboard analyzing sales, profit, customer behavior, branch performance, and business trends using Power BI, DAX, calculated columns, drill-through, segmentation, and dynamic filtering.",
     metrics: [
@@ -236,7 +236,7 @@ export const PROJECTS: ProjectItem[] = [
     filterTags: ["ALL", "POWER BI", "OPERATIONS ANALYTICS", "BUSINESS ANALYSIS"],
     tools: ["Power BI", "DAX", "Power Query", "Excel"],
     githubUrl: "https://github.com/saranga20010224/Apparel-Sales-Production-Dashboard",
-    imageUrl: "/images/projects/apparel-sales-production.png",
+    imageUrl: "./images/projects/apparel-sales-production.png",
     description:
       "Dashboard analyzing sales and production performance including revenue, gross profit, order quantity, production efficiency, demand, lead time, plants, products, customers, and regions.",
     metrics: [
@@ -292,7 +292,7 @@ export const PROJECTS: ProjectItem[] = [
     filterTags: ["ALL", "SQL / DATA"],
     tools: ["Java", "MySQL", "JDBC"],
     githubUrl: "https://github.com/saranga20010224/Student-Data-Base-App--Mini-project",
-    imageUrl: "/images/projects/student-management-app.jpg",
+    imageUrl: "./images/projects/student-management-app.jpg",
     description: "A robust Java-based Student Management Application seamlessly connected to a MySQL database. Demonstrates core database-driven application development, employing JDBC to efficiently manage, retrieve, and update student records in a structured environment.",
     metrics: [
       { label: "Architecture", value: "Client-Server", type: "highlight" },
@@ -343,7 +343,7 @@ export const PROJECTS: ProjectItem[] = [
     filterTags: ["ALL"],
     tools: ["Python"],
     githubUrl: "https://github.com/saranga20010224/Simple-Calculator",
-    imageUrl: "/images/projects/simple-calculator.jpg",
+    imageUrl: "./images/projects/simple-calculator.jpg",
     description: "A lightweight, command-line calculator built in Python supporting arithmetic operations including addition, subtraction, multiplication, division, power, and remainder. Features robust input validation, graceful error handling for division by zero, and interactive session resets.",
     metrics: [
       { label: "Environment", value: "Command-Line", type: "highlight" },
@@ -394,7 +394,7 @@ export const PROJECTS: ProjectItem[] = [
     filterTags: ["ALL", "POWER BI", "OPERATIONS ANALYTICS", "BUSINESS ANALYSIS"],
     tools: ["Power BI", "SAP", "Excel", "DAX"],
     githubUrl: "https://github.com/saranga20010224/Operations-Dashboard-for-Apparel-Manufacturing-",
-    imageUrl: "/images/projects/apparel-operations-dashboard.png",
+    imageUrl: "./images/projects/apparel-operations-dashboard.png",
     description: "A Power BI dashboard that tracks sales order and purchase order risk indicators for production and delivery planning. It analyzes SAP data to identify line items that are pending, overdue, or blocked due to raw material shortages, overdue cut dates, or delayed production.",
     metrics: [
       { label: "Data Source", value: "SAP", type: "highlight" },
@@ -445,7 +445,7 @@ export const PROJECTS: ProjectItem[] = [
     filterTags: ["ALL", "POWER BI", "BUSINESS ANALYSIS", "DATA ANALYTICS"],
     tools: ["Power BI", "Power Query", "SAP", "Excel", "DAX"],
     githubUrl: "https://github.com/saranga20010224/Apparel-Sales-Profitability-Dashboard",
-    imageUrl: "/images/projects/apparel-sales-profitability-dashboard.png",
+    imageUrl: "./images/projects/apparel-sales-profitability-dashboard.png",
     description: "An interactive Power BI dashboard analyzing apparel manufacturing sales, profitability, and production efficiency. It processes SAP-extracted data to track FOB value, Net Profit, and Earnings Per Minute (EPM), providing actionable insights into customer concentration and product margins.",
     metrics: [
       { label: "Data Source", value: "SAP", type: "highlight" },
@@ -497,7 +497,7 @@ export const PROJECTS: ProjectItem[] = [
     filterTags: ["ALL", "POWER BI", "BUSINESS ANALYSIS", "DATA ANALYTICS"],
     tools: ["Power BI", "Power Query", "SharePoint", "Excel", "DAX"],
     githubUrl: "https://github.com/saranga20010224/Talent-Development-Training-Dashboard",
-    imageUrl: "/images/projects/talent-development-dashboard.png",
+    imageUrl: "./images/projects/talent-development-dashboard.png",
     description: "An interactive Power BI dashboard tracking corporate learning and development (L&D) initiatives. It analyzes employee training attendance, session delivery against planned schedules, and actual training costs across departments and competencies using a live SharePoint dataset.",
     metrics: [
       { label: "Data Source", value: "SharePoint", type: "highlight" },

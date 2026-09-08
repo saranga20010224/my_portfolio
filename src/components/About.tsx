@@ -123,11 +123,11 @@ export const About: React.FC = () => {
               <div className="relative w-56 h-56 sm:w-64 sm:h-64 rounded-3xl p-1.5 bg-gradient-to-tr from-blue-600 to-sky-400 shadow-xl">
                 <div className="w-full h-full rounded-[22px] overflow-hidden bg-slate-900 border-2 border-white dark:border-slate-800">
                   <img
-                    src="/images/profile-new.jpg"
+                    src="./images/profile-new.jpg"
                     alt="Saranga Rathnayaka"
                     className="w-full h-full object-cover object-center"
                     onError={(e) => {
-                      (e.target as HTMLImageElement).src = '/images/saranga-headshot-clean.png';
+                      (e.target as HTMLImageElement).src = './images/saranga-headshot-clean.png';
                     }}
                   />
                 </div>

@@ -14,7 +14,7 @@ export const CERTIFICATIONS: CertificationItem[] = [
     id: "ba-foundations",
     title: "Business Analysis Foundations",
     issuer: "LinkedIn Learning",
-    logo: "/images/logos/linkedin.jpg",
+    logo: "./images/logos/linkedin.jpg",
     domain: "Business Analysis",
     iconName: "Compass",
     isHighlighted: true
@@ -23,7 +23,7 @@ export const CERTIFICATIONS: CertificationItem[] = [
     id: "power-platform-ba",
     title: "Power Platform in Business Analysis",
     issuer: "Microsoft / Coursera",
-    logo: "/images/logos/microsoft.jpg",
+    logo: "./images/logos/microsoft.jpg",
     domain: "Digital Solutions & Power Platform",
     iconName: "Zap",
     isHighlighted: true
@@ -32,7 +32,7 @@ export const CERTIFICATIONS: CertificationItem[] = [
     id: "power-bi-101",
     title: "Power BI 101: Microsoft Power BI Essentials",
     issuer: "Udemy",
-    logo: "/images/logos/udemy.jpg",
+    logo: "./images/logos/udemy.jpg",
     domain: "Business Intelligence",
     iconName: "BarChart3",
     isHighlighted: true
@@ -41,7 +41,7 @@ export const CERTIFICATIONS: CertificationItem[] = [
     id: "sql-programming",
     title: "The Complete Introduction to SQL Programming",
     issuer: "Udemy",
-    logo: "/images/logos/udemy.jpg",
+    logo: "./images/logos/udemy.jpg",
     domain: "Data & Databases",
     iconName: "Database",
     isHighlighted: true
@@ -50,7 +50,7 @@ export const CERTIFICATIONS: CertificationItem[] = [
     id: "python-beginners",
     title: "Python for Beginners",
     issuer: "University of Moratuwa",
-    logo: "/images/logos/moratuwa.jpg",
+    logo: "./images/logos/moratuwa.jpg",
     domain: "Programming",
     iconName: "FileCode2"
   },
@@ -58,7 +58,7 @@ export const CERTIFICATIONS: CertificationItem[] = [
     id: "python-data-analysis",
     title: "Python for Data Analysis",
     issuer: "Simplilearn",
-    logo: "/images/logos/simplilearn.jpg",
+    logo: "./images/logos/simplilearn.jpg",
     domain: "Data Analytics",
     iconName: "TrendingUp"
   },
@@ -66,7 +66,7 @@ export const CERTIFICATIONS: CertificationItem[] = [
     id: "databases-sql-python",
     title: "Databases and SQL for Data Science with Python",
     issuer: "IBM",
-    logo: "/images/logos/ibm.jpg",
+    logo: "./images/logos/ibm.jpg",
     domain: "Data Science & Databases",
     iconName: "Server"
   }

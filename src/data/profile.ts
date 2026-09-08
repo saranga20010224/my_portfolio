@@ -107,7 +107,7 @@ export const PROFILE_DATA = {
     location: "Sri Lanka",
     linkedIn: "https://linkedin.com/in/saranga-rathnayaka",
     gitHub: "https://github.com/saranga20010224",
-    resumePath: "/resume/Saranga_Rathnayaka_CV.pdf"
+    resumePath: "./resume/Saranga_Rathnayaka_CV.pdf"
   },
 
   socialLinks: [
