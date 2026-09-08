@@ -106,7 +106,7 @@ export const PROFILE_DATA = {
     phone: "+94 76 430 56 80",
     location: "Sri Lanka",
     linkedIn: "https://linkedin.com/in/saranga-rathnayaka",
-    gitHub: "https://github.com/saranga-rathnayaka",
+    gitHub: "https://github.com/saranga20010224",
     resumePath: "/resume/Saranga_Rathnayaka_CV.pdf"
   },
 
@@ -119,7 +119,7 @@ export const PROFILE_DATA = {
     },
     {
       name: "GitHub",
-      url: "https://github.com/saranga-rathnayaka",
+      url: "https://github.com/saranga20010224",
       icon: "Github",
       ariaLabel: "Visit Saranga Rathnayaka's GitHub Profile"
     },

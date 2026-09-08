@@ -12,7 +12,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenResumeModal }) => {
   };
 
   return (
-    <footer className="bg-navy-950 text-slate-400 border-t border-slate-800 text-xs py-8 md:py-10">
+    <footer className="bg-navy-950/80 backdrop-blur-md text-slate-400 border-t border-slate-800 text-xs py-8 md:py-10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         <div className="grid grid-cols-1 md:grid-cols-12 gap-8 pb-6 border-b border-slate-800">
@@ -74,7 +74,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenResumeModal }) => {
           {/* Professional Credentials & Resume CTAs */}
           <div className="md:col-span-3 space-y-3">
             <div className="font-semibold text-white uppercase tracking-wider text-[11px]">
-              Curriculum Vitae
+              Saranga Rathnayaka
             </div>
             <p className="text-slate-400">
               Trainee Business Analyst at E-Screen Systems.

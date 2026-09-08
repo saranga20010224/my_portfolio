@@ -39,7 +39,7 @@ export const CurrentRole: React.FC = () => {
   };
 
   return (
-    <section id="current-role" className="py-10 md:py-14 bg-white dark:bg-slateDark-900/50 border-t border-slate-200/80 dark:border-slate-800">
+    <section id="current-role" className="py-10 md:py-14 bg-transparent border-t border-slate-200/80 dark:border-slate-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Header with Live Badge */}

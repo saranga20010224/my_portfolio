@@ -25,11 +25,11 @@ export const HeroVisual: React.FC = () => {
         <div className="absolute -inset-10 rounded-full border border-dashed border-slate-200/50 dark:border-slate-800/50 pointer-events-none" />
 
         {/* Central Portrait Container */}
-        <div className="relative mx-auto w-64 h-64 sm:w-72 sm:h-72 lg:w-80 lg:h-80 rounded-full p-2 bg-gradient-to-tr from-blue-600 via-sky-400 to-indigo-600 shadow-2xl">
+        <div className="relative mx-auto w-72 h-72 sm:w-80 sm:h-80 lg:w-96 lg:h-96 rounded-full p-2 bg-gradient-to-tr from-blue-600 via-sky-400 to-indigo-600 shadow-2xl">
           
           <div className="w-full h-full rounded-full overflow-hidden bg-slate-900 border-4 border-white dark:border-slateDark-900 shadow-inner relative group">
             <img
-              src="/images/saranga-profile.png"
+              src="/images/profile-new.jpg"
               alt="Saranga Rathnayaka — Business Analyst & Data Analyst"
               className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
               onError={(e) => {

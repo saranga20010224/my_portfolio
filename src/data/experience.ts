@@ -65,8 +65,8 @@ export const EXPERIENCES: ExperienceItem[] = [
   {
     id: "escreen",
     role: "Trainee Business Analyst",
-    company: "E-Screen Systems",
-    companySubtitle: "E-Screen Systems (Pvt) Ltd • Textile Printing & Manufacturing Solutions Provider",
+    company: "E-Screen Systems (Pvt) Ltd",
+    companySubtitle: "Textile Printing & Manufacturing Solutions Provider",
     period: "Present",
     isCurrent: true,
     type: "Trainee",
@@ -97,9 +97,9 @@ export const EXPERIENCES: ExperienceItem[] = [
   {
     id: "ansell",
     role: "Data Analyst Intern",
-    company: "Ansell",
-    companySubtitle: "Ansell Textiles Lanka (Pvt) Ltd • Global leader in protection solutions",
-    period: "Previous",
+    company: "Ansell Textiles Lanka",
+    companySubtitle: "Global leader in protection solutions",
+    period: "February 2026 - July 2026",
     isCurrent: false,
     type: "Internship",
     location: "Seeduwa, Sri Lanka",
@@ -124,7 +124,7 @@ export const EXPERIENCES: ExperienceItem[] = [
   {
     id: "hela",
     role: "Intern – Operations (Data Focus)",
-    company: "Hela Clothing – Head Office",
+    company: "Hela Clothing (Pvt) Ltd",
     companySubtitle: "Leading multinational apparel manufacturer",
     period: "August 2025 – January 2026",
     isCurrent: false,

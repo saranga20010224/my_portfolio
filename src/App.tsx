@@ -13,6 +13,8 @@ import { ProjectModal } from './components/ProjectModal.tsx';
 import { ResumeModal } from './components/ResumeModal.tsx';
 import { ProjectItem } from './data/projects.ts';
 
+import { AnimatedBackground } from './components/AnimatedBackground.tsx';
+
 export const App: React.FC = () => {
   // Theme state with localStorage persistence
   const [darkMode, setDarkMode] = useState<boolean>(() => {
@@ -36,7 +38,8 @@ export const App: React.FC = () => {
   }, [darkMode]);
 
   return (
-    <div className="min-h-screen bg-slate-50 text-slate-900 dark:bg-slateDark-900 dark:text-slate-100 selection:bg-blue-600 selection:text-white">
+    <div className="min-h-screen text-slate-900 dark:text-slate-100 selection:bg-blue-600 selection:text-white relative">
+      <AnimatedBackground />
       
       {/* 1. Header & Reorganized Navigation */}
       <Navbar

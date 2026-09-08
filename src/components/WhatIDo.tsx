@@ -1,6 +1,7 @@
 import React from 'react';
 import { Compass, LineChart, BarChart3, LayoutDashboard, Zap, Layers, Check } from 'lucide-react';
 import { PROFILE_DATA } from '../data/profile.ts';
+import { FadeInUp, StaggerContainer, StaggerItem } from './animations/ScrollAnimation.tsx';
 
 export const WhatIDo: React.FC = () => {
   const getIcon = (name: string) => {
@@ -23,11 +24,11 @@ export const WhatIDo: React.FC = () => {
   };
 
   return (
-    <section id="what-i-do" className="py-10 md:py-14 bg-slate-50 dark:bg-slateDark-900 border-t border-slate-200/80 dark:border-slate-800">
+    <section id="what-i-do" className="py-10 md:py-14 bg-transparent border-t border-slate-200/80 dark:border-slate-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Header */}
-        <div className="text-center max-w-3xl mx-auto mb-8">
+        <FadeInUp className="text-center max-w-3xl mx-auto mb-8">
           <span className="text-xs font-bold uppercase tracking-wider text-blue-600 dark:text-blue-400">
             What I Do
           </span>
@@ -37,14 +38,14 @@ export const WhatIDo: React.FC = () => {
           <p className="text-base sm:text-lg text-slate-600 dark:text-slate-300 mt-2">
             Structured capabilities spanning requirements elicitation, quantitative analytics, enterprise BI, and digital process optimization.
           </p>
-        </div>
+        </FadeInUp>
 
         {/* 6 Structured Competency Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+        <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
           {PROFILE_DATA.coreCompetencies.map((card) => (
-            <div
+            <StaggerItem
               key={card.id}
-              className="p-6 rounded-3xl bg-white dark:bg-slateDark-850 border border-slate-200 dark:border-slate-800 hover:border-blue-500/50 dark:hover:border-blue-500/50 shadow-xs hover:shadow-md transition-all duration-200 flex flex-col justify-between group"
+              className="p-6 rounded-3xl bg-white dark:bg-slateDark-850 border border-slate-200 dark:border-slate-800 hover:border-blue-500/50 dark:hover:border-blue-500/50 shadow-xs hover:shadow-md transition-all duration-200 flex flex-col justify-between group h-full"
             >
               <div>
                 <div className="flex items-center space-x-3 mb-5">
@@ -69,9 +70,9 @@ export const WhatIDo: React.FC = () => {
               <div className="mt-5 pt-4 border-t border-slate-100 dark:border-slate-800/80 text-[11px] font-mono text-slate-400">
                 Ready for Production Integration
               </div>
-            </div>
+            </StaggerItem>
           ))}
-        </div>
+        </StaggerContainer>
 
       </div>
     </section>

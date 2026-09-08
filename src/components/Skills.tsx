@@ -13,6 +13,7 @@ import {
   Check
 } from 'lucide-react';
 import { SKILL_CATEGORIES, FEATURED_TECH_STACK } from '../data/skills.ts';
+import { FadeInUp, StaggerContainer, StaggerItem } from './animations/ScrollAnimation.tsx';
 
 export const Skills: React.FC = () => {
   const getCategoryIcon = (id: string) => {
@@ -54,11 +55,11 @@ export const Skills: React.FC = () => {
   };
 
   return (
-    <section id="skills" className="py-10 md:py-14 bg-slate-50 dark:bg-slateDark-900 border-t border-slate-200/80 dark:border-slate-800">
+    <section id="skills" className="py-10 md:py-14 bg-transparent border-t border-slate-200/80 dark:border-slate-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Header */}
-        <div className="max-w-3xl mb-8">
+        <FadeInUp className="max-w-3xl mb-8">
           <span className="text-xs font-bold uppercase tracking-wider text-blue-600 dark:text-blue-400">
             Technical Stack
           </span>
@@ -68,10 +69,10 @@ export const Skills: React.FC = () => {
           <p className="text-base text-slate-600 dark:text-slate-300 mt-2">
             Structured technologies categorized by analytical disciplines, enterprise systems, and BI tools.
           </p>
-        </div>
+        </FadeInUp>
 
         {/* Featured Visual Tech Ribbon */}
-        <div className="mb-8 p-5 sm:p-6 rounded-3xl bg-white dark:bg-slateDark-850 border border-slate-200 dark:border-slate-800 shadow-sm">
+        <FadeInUp delay={0.1} className="mb-8 p-5 sm:p-6 rounded-3xl bg-white dark:bg-slateDark-850 border border-slate-200 dark:border-slate-800 shadow-sm">
           <div className="flex flex-col sm:flex-row sm:items-center justify-between mb-6 pb-4 border-b border-slate-200/80 dark:border-slate-800">
             <div>
               <h3 className="text-lg font-bold text-slate-900 dark:text-white flex items-center space-x-2">
@@ -89,9 +90,9 @@ export const Skills: React.FC = () => {
             </div>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-7 gap-3">
+          <StaggerContainer className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-7 gap-3">
             {FEATURED_TECH_STACK.map((tech) => (
-              <div
+              <StaggerItem
                 key={tech.name}
                 className={`p-4 rounded-2xl flex flex-col justify-between transition-all duration-200 border ${
                   tech.highlight
@@ -119,17 +120,17 @@ export const Skills: React.FC = () => {
                 <p className="text-[11px] text-slate-500 dark:text-slate-400 mt-3 leading-tight">
                   {tech.roleDescription}
                 </p>
-              </div>
+              </StaggerItem>
             ))}
-          </div>
-        </div>
+          </StaggerContainer>
+        </FadeInUp>
 
         {/* 5 Grouped Categories as requested */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {SKILL_CATEGORIES.map((group) => (
-            <div
+            <StaggerItem
               key={group.id}
-              className="p-6 rounded-3xl bg-white dark:bg-slateDark-850 border border-slate-200 dark:border-slate-800 shadow-xs hover:border-slate-300 dark:hover:border-slate-700 transition-colors flex flex-col justify-between"
+              className="p-6 rounded-3xl bg-white dark:bg-slateDark-850 border border-slate-200 dark:border-slate-800 shadow-xs hover:border-slate-300 dark:hover:border-slate-700 transition-colors flex flex-col justify-between h-full"
             >
               <div>
                 <div className="flex items-center space-x-3 mb-4">
@@ -158,9 +159,9 @@ export const Skills: React.FC = () => {
                   ))}
                 </div>
               </div>
-            </div>
+            </StaggerItem>
           ))}
-        </div>
+        </StaggerContainer>
 
       </div>
     </section>

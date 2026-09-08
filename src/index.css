@@ -69,3 +69,10 @@
 .dark .glow-accent {
   box-shadow: 0 0 35px -5px rgba(56, 189, 248, 0.15);
 }
+.animation-delay-2000 {
+  animation-delay: 2s;
+}
+
+.animation-delay-4000 {
+  animation-delay: 4s;
+}

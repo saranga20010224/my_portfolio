@@ -4,7 +4,7 @@ import { CERTIFICATIONS } from '../data/certifications.ts';
 
 export const Certifications: React.FC = () => {
   return (
-    <section id="certifications" className="py-10 md:py-14 bg-slate-50 dark:bg-slateDark-900 border-t border-slate-200/80 dark:border-slate-800">
+    <section id="certifications" className="py-10 md:py-14 bg-transparent border-t border-slate-200/80 dark:border-slate-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Header */}
@@ -41,13 +41,29 @@ export const Certifications: React.FC = () => {
                   </div>
                 </div>
 
-                <h3 className="text-base font-bold text-slate-900 dark:text-white tracking-tight leading-snug">
-                  {cert.title}
-                </h3>
+                <div className="flex items-start justify-between gap-4">
+                  <div>
+                    <h3 className="text-base font-bold text-slate-900 dark:text-white tracking-tight leading-snug">
+                      {cert.title}
+                    </h3>
 
-                <p className="text-xs sm:text-sm font-semibold text-slate-600 dark:text-slate-300 mt-1">
-                  Issued by: <span className="text-slate-900 dark:text-white">{cert.issuer}</span>
-                </p>
+                    <p className="text-xs sm:text-sm font-semibold text-slate-600 dark:text-slate-300 mt-1">
+                      Issued by: <span className="text-slate-900 dark:text-white">{cert.issuer}</span>
+                    </p>
+                  </div>
+                  {cert.logo && (
+                    <div className="shrink-0 bg-white p-1.5 rounded-lg shadow-sm border border-slate-100 dark:border-slate-700 flex items-center justify-center w-16 h-12 sm:w-20 sm:h-14">
+                      <img 
+                        src={cert.logo} 
+                        alt={`${cert.issuer} logo`} 
+                        className="max-w-full max-h-full object-contain"
+                        onError={(e) => {
+                          e.currentTarget.parentElement!.style.display = 'none';
+                        }}
+                      />
+                    </div>
+                  )}
+                </div>
               </div>
 
               {/* Ready for verification link slot */}

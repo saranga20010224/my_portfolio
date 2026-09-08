@@ -29,7 +29,7 @@ export const Journey: React.FC = () => {
   };
 
   return (
-    <section id="journey" className="py-10 md:py-14 bg-slate-50 dark:bg-slateDark-900 border-t border-slate-200/80 dark:border-slate-800">
+    <section id="journey" className="py-10 md:py-14 bg-transparent border-t border-slate-200/80 dark:border-slate-800">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Header */}

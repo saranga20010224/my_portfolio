@@ -120,7 +120,8 @@ export const PROJECTS: ProjectItem[] = [
     category: "Business Analytics | Operations Analytics",
     filterTags: ["ALL", "BUSINESS ANALYSIS", "OPERATIONS ANALYTICS", "POWER BI"],
     tools: ["Power BI", "SPSS", "SAP", "Excel"],
-    githubUrl: "https://github.com/saranga-rathnayaka",
+    imageUrl: "/images/projects/po-delay-analysis.png",
+    githubUrl: "https://github.com/saranga20010224/FS-3001---Internship-Research-Project",
     description:
       "An operational analytics project analyzing Purchase Order creation delays using SAP procurement data. The project identifies delay patterns across customers and plants and applies statistical techniques including ANOVA and Chi-Square analysis to investigate operational factors.",
     metrics: [
@@ -177,7 +178,8 @@ export const PROJECTS: ProjectItem[] = [
     category: "Business Intelligence | Power BI",
     filterTags: ["ALL", "POWER BI", "BUSINESS ANALYSIS", "DATA ANALYTICS"],
     tools: ["Power BI", "Power Query", "DAX", "Excel"],
-    githubUrl: "https://github.com/saranga-rathnayaka",
+    githubUrl: "https://github.com/saranga20010224/Supermarket-Sales-Dashboard",
+    imageUrl: "/images/projects/supermarket-sales-dashboard.png",
     description:
       "Interactive supermarket sales dashboard analyzing sales, profit, customer behavior, branch performance, and business trends using Power BI, DAX, calculated columns, drill-through, segmentation, and dynamic filtering.",
     metrics: [
@@ -233,7 +235,8 @@ export const PROJECTS: ProjectItem[] = [
     category: "Business Intelligence | Operations Analytics",
     filterTags: ["ALL", "POWER BI", "OPERATIONS ANALYTICS", "BUSINESS ANALYSIS"],
     tools: ["Power BI", "DAX", "Power Query", "Excel"],
-    githubUrl: "https://github.com/saranga-rathnayaka",
+    githubUrl: "https://github.com/saranga20010224/Apparel-Sales-Production-Dashboard",
+    imageUrl: "/images/projects/apparel-sales-production.png",
     description:
       "Dashboard analyzing sales and production performance including revenue, gross profit, order quantity, production efficiency, demand, lead time, plants, products, customers, and regions.",
     metrics: [
@@ -279,6 +282,263 @@ export const PROJECTS: ProjectItem[] = [
       keyInsights: "Project insights can be added here.",
       businessValue:
         "Bridged commercial demand with factory floor execution, empowering operations leadership to protect margins, balance plant allocations, and improve on-time delivery performance."
+    }
+  },
+  {
+    id: "student-management-app",
+    title: "Student Management Application",
+    subtitle: "Java-based Database Application",
+    category: "Software Development | Database",
+    filterTags: ["ALL", "SQL / DATA"],
+    tools: ["Java", "MySQL", "JDBC"],
+    githubUrl: "https://github.com/saranga20010224/Student-Data-Base-App--Mini-project",
+    imageUrl: "/images/projects/student-management-app.jpg",
+    description: "A robust Java-based Student Management Application seamlessly connected to a MySQL database. Demonstrates core database-driven application development, employing JDBC to efficiently manage, retrieve, and update student records in a structured environment.",
+    metrics: [
+      { label: "Architecture", value: "Client-Server", type: "highlight" },
+      { label: "Backend", value: "MySQL Database", type: "positive" },
+      { label: "Connectivity", value: "JDBC API", type: "neutral" },
+      { label: "Core Feature", value: "CRUD Operations", type: "highlight" }
+    ],
+    visualType: "customer",
+    abstractHighlights: [
+      "Database-driven application development using Java",
+      "Seamless integration with MySQL via JDBC",
+      "Efficient student records management",
+      "Structured database schema and queries"
+    ],
+    chartPreview: {
+      chartType: "bar",
+      chartTitle: "Database Application Overview",
+      legend: ["Setup", "Queries", "UI"],
+      bars: [
+        { label: "Setup", height: 60, color: "bg-blue-600" },
+        { label: "Queries", height: 85, color: "bg-sky-500" },
+        { label: "UI", height: 45, color: "bg-indigo-500" }
+      ]
+    },
+    caseStudy: {
+      problem: "Educational institutions require reliable and efficient systems to manage student records without relying on manual, error-prone paper-based methods.",
+      approach: [
+        "Designed a relational database schema in MySQL to store student details securely",
+        "Developed a Java application to serve as the front-end interface for users",
+        "Implemented the JDBC API to establish a reliable connection between the Java application and the MySQL database",
+        "Created SQL queries to handle CRUD (Create, Read, Update, Delete) operations seamlessly"
+      ],
+      toolsAndTech: ["Java", "MySQL", "JDBC", "SQL"],
+      analysis: [
+        "Structured data storage ensuring data integrity and fast retrieval",
+        "Robust error handling for database connection and query execution",
+        "Optimized query performance for managing large sets of student data"
+      ],
+      keyInsights: "Implementing a structured database application significantly reduces administrative overhead and ensures accurate, centralized record keeping.",
+      businessValue: "Provides a scalable, reliable, and user-friendly system for institutions to manage student information, demonstrating strong foundational skills in full-stack Java and database development."
+    }
+  },
+  {
+    id: "simple-calculator",
+    title: "Simple Calculator",
+    subtitle: "Command-Line Python Application",
+    category: "Software Development",
+    filterTags: ["ALL"],
+    tools: ["Python"],
+    githubUrl: "https://github.com/saranga20010224/Simple-Calculator",
+    imageUrl: "/images/projects/simple-calculator.jpg",
+    description: "A lightweight, command-line calculator built in Python supporting arithmetic operations including addition, subtraction, multiplication, division, power, and remainder. Features robust input validation, graceful error handling for division by zero, and interactive session resets.",
+    metrics: [
+      { label: "Environment", value: "Command-Line", type: "highlight" },
+      { label: "Language", value: "Python", type: "positive" },
+      { label: "Operations", value: "6 Types", type: "neutral" },
+      { label: "Design", value: "Interactive Loop", type: "highlight" }
+    ],
+    visualType: "customer",
+    abstractHighlights: [
+      "Interactive command-line interface with session management",
+      "Arithmetic, power, and modulo operations",
+      "Robust input validation and error handling",
+      "Graceful exception handling for zero division"
+    ],
+    chartPreview: {
+      chartType: "bar",
+      chartTitle: "Application Logic Overview",
+      legend: ["Validation", "Calculation", "I/O"],
+      bars: [
+        { label: "Valid", height: 80, color: "bg-blue-600" },
+        { label: "Calc", height: 95, color: "bg-emerald-500" },
+        { label: "I/O", height: 60, color: "bg-slate-500" }
+      ]
+    },
+    caseStudy: {
+      problem: "Beginner programming concepts like functions, loops, and input handling require practical, interactive applications to solidify understanding and demonstrate foundational software engineering principles.",
+      approach: [
+        "Developed an interactive Python script utilizing a continuous while loop for sustained user sessions",
+        "Implemented robust conditional logic to route user input to appropriate arithmetic functions",
+        "Engineered input validation to gracefully catch and handle non-numeric inputs and mathematical errors",
+        "Integrated custom commands ('#' to terminate, '$' to reset) for enhanced user control over the application state"
+      ],
+      toolsAndTech: ["Python"],
+      analysis: [
+        "Evaluation of edge cases in arithmetic operations, specifically ensuring stability during division by zero",
+        "Analysis of user input sanitization to prevent application crashes from invalid data types",
+        "Optimization of the command loop for seamless transitions between multiple sequential calculations"
+      ],
+      keyInsights: "Implementing a simple utility application highlights the critical importance of defensive programming, particularly user input validation and exception handling.",
+      businessValue: "Demonstrates strong foundational programming skills in Python, including control flow, functional decomposition, and error handling—key competencies for robust software development."
+    }
+  },
+  {
+    id: "apparel-operations-dashboard",
+    title: "Operations Dashboard for Apparel Manufacturing",
+    subtitle: "Sales and Purchase Order Risk Overview",
+    category: "Business Intelligence | Operations Analytics",
+    filterTags: ["ALL", "POWER BI", "OPERATIONS ANALYTICS", "BUSINESS ANALYSIS"],
+    tools: ["Power BI", "SAP", "Excel", "DAX"],
+    githubUrl: "https://github.com/saranga20010224/Operations-Dashboard-for-Apparel-Manufacturing-",
+    imageUrl: "/images/projects/apparel-operations-dashboard.png",
+    description: "A Power BI dashboard that tracks sales order and purchase order risk indicators for production and delivery planning. It analyzes SAP data to identify line items that are pending, overdue, or blocked due to raw material shortages, overdue cut dates, or delayed production.",
+    metrics: [
+      { label: "Data Source", value: "SAP", type: "highlight" },
+      { label: "Core Analysis", value: "Order Risk KPIs", type: "positive" },
+      { label: "Tracking", value: "PO Aging & PCD", type: "neutral" },
+      { label: "Tech Stack", value: "Power BI & Excel", type: "highlight" }
+    ],
+    visualType: "procurement",
+    abstractHighlights: [
+      "Extracted SAP ERP procurement records and timestamps",
+      "Created DAX measures to track overdue Planned Cut Dates (PCD) and production completion",
+      "Tracked raw material shortages and fabric-in-housed status",
+      "Mapped past-due Purchase Orders by week for proactive follow-up"
+    ],
+    chartPreview: {
+      chartType: "split",
+      chartTitle: "Production Risk KPI Distribution",
+      legend: ["Overdue PCD", "Fabric Pending", "Production Pending"],
+      bars: [
+        { label: "Cut Delay", height: 65, color: "bg-red-500" },
+        { label: "Fabric", height: 40, color: "bg-orange-500" },
+        { label: "Prod", height: 85, color: "bg-amber-500" }
+      ]
+    },
+    caseStudy: {
+      problem: "Supply chain, planning, and production teams in apparel manufacturing lack visibility into sales and purchase orders that are at risk of delay. Delays due to missing raw materials, incomplete production, or overdue planned cut dates require proactive identification.",
+      approach: [
+        "Extracted raw data from SAP and restructured it in Excel for optimal modeling",
+        "Imported cleaned data into Power BI Desktop and developed a robust data model",
+        "Formulated key DAX measures to calculate PCD Pending, Fabric Status, Production Completion, and RM Shortages",
+        "Designed interactive dashboard pages including high-level summaries and detailed drill-downs for specific risk factors"
+      ],
+      toolsAndTech: ["Power BI", "Microsoft Excel", "SAP", "DAX"],
+      analysis: [
+        "Identified sales order line items where cutting has not started by the Planned Cut Date (PCD)",
+        "Tracked line items delayed due to pending fabric or raw material inventory",
+        "Analyzed and mapped past-due purchase orders against their relevant week for aging analysis"
+      ],
+      keyInsights: "Providing a unified view of production bottlenecks allows procurement and planning teams to proactively address material shortages and overdue tasks before they impact final delivery dates.",
+      businessValue: "Empowers cross-functional manufacturing teams with critical risk indicators, facilitating proactive problem-solving, protecting delivery schedules, and improving overall supply chain reliability."
+    }
+  },
+  {
+    id: "apparel-sales-profitability-dashboard",
+    title: "Apparel Sales & Profitability Dashboard",
+    subtitle: "Manufacturing Sales & Margin Analytics",
+    category: "Business Intelligence | Power BI",
+    filterTags: ["ALL", "POWER BI", "BUSINESS ANALYSIS", "DATA ANALYTICS"],
+    tools: ["Power BI", "Power Query", "SAP", "Excel", "DAX"],
+    githubUrl: "https://github.com/saranga20010224/Apparel-Sales-Profitability-Dashboard",
+    imageUrl: "/images/projects/apparel-sales-profitability-dashboard.png",
+    description: "An interactive Power BI dashboard analyzing apparel manufacturing sales, profitability, and production efficiency. It processes SAP-extracted data to track FOB value, Net Profit, and Earnings Per Minute (EPM), providing actionable insights into customer concentration and product margins.",
+    metrics: [
+      { label: "Data Source", value: "SAP", type: "highlight" },
+      { label: "Core Metric", value: "Earnings Per Min", type: "positive" },
+      { label: "Scope", value: "Sales & Margins", type: "neutral" },
+      { label: "Tech Stack", value: "Power BI & Excel", type: "highlight" }
+    ],
+    visualType: "apparel",
+    abstractHighlights: [
+      "Extracted and standardized raw SAP sales order data via Excel and Power Query",
+      "Formulated DAX measures for Total FOB, Net Profit (NP), and Earnings Per Minute (EPM)",
+      "Analyzed customer concentration risk and business-unit revenue distribution",
+      "Monitored on-time delivery (SHIP%) and efficiency per order line"
+    ],
+    chartPreview: {
+      chartType: "bar",
+      chartTitle: "Sales & Profitability Breakdown",
+      legend: ["Intimates", "Menswear", "Kids"],
+      bars: [
+        { label: "Intimates", height: 90, color: "bg-blue-600" },
+        { label: "Menswear", height: 75, color: "bg-sky-500" },
+        { label: "Kids", height: 30, color: "bg-indigo-500" }
+      ]
+    },
+    caseStudy: {
+      problem: "Apparel manufacturing teams lack unified visibility into the profitability of specific customer accounts, product lines, and production runs. Costing, production, and sales data are siloed, making it difficult to evaluate margins or identify high-value programs before scaling production.",
+      approach: [
+        "Ingested and cleaned SAP sales order and costing data using Microsoft Excel and Power Query",
+        "Developed a robust Power BI data model integrating product, customer, logistics, and costing fields",
+        "Created custom DAX calculations to evaluate key industry metrics such as Earnings Per Minute (EPM) and Net Profit/FOB ratios",
+        "Designed an interactive dashboard with dynamic slicers for Brand, SBU, Gender, Season, and Program Type"
+      ],
+      toolsAndTech: ["Power BI", "Power Query", "SAP", "Excel", "DAX"],
+      analysis: [
+        "Identified business-unit revenue drivers, revealing Intimates as the highest FOB contributor despite lower unit volumes",
+        "Highlighted customer concentration risks where a single account represented ~43% of total FOB value",
+        "Evaluated margin visibility at the line level, spotting thin-margin styles and customers early in the cycle",
+        "Benchmarked on-time delivery (SHIP%) by customer and plant to improve supply chain reliability"
+      ],
+      keyInsights: "Connecting factory-floor efficiency (Sewing SMV) directly to commercial sales data (FOB/Net Profit) empowers teams to calculate true Earnings Per Minute, driving highly targeted and profitable production planning.",
+      businessValue: "Transforms raw transactional SAP data into a strategic asset, enabling merchandising, finance, and production leadership to protect margins, optimize capacity allocation, and diversify customer portfolios."
+    }
+  },
+  {
+    id: "talent-development-training-dashboard",
+    title: "Talent Development & Training Dashboard",
+    subtitle: "HR & Learning Development Analytics",
+    category: "Business Intelligence | HR Analytics",
+    filterTags: ["ALL", "POWER BI", "BUSINESS ANALYSIS", "DATA ANALYTICS"],
+    tools: ["Power BI", "Power Query", "SharePoint", "Excel", "DAX"],
+    githubUrl: "https://github.com/saranga20010224/Talent-Development-Training-Dashboard",
+    imageUrl: "/images/projects/talent-development-dashboard.png",
+    description: "An interactive Power BI dashboard tracking corporate learning and development (L&D) initiatives. It analyzes employee training attendance, session delivery against planned schedules, and actual training costs across departments and competencies using a live SharePoint dataset.",
+    metrics: [
+      { label: "Data Source", value: "SharePoint", type: "highlight" },
+      { label: "Employees", value: "4,400+", type: "positive" },
+      { label: "Scope", value: "L&D Metrics", type: "neutral" },
+      { label: "Tech Stack", value: "Power BI & DAX", type: "highlight" }
+    ],
+    visualType: "procurement",
+    abstractHighlights: [
+      "Connected directly to a shared SharePoint Excel workbook via Power Query",
+      "Merged Attendance and Session data for unified row-level training context",
+      "Created 30+ guarded DAX measures for calculating attendance rates and training costs",
+      "Implemented conditional formatting for KPIs driven directly by DAX color logic"
+    ],
+    chartPreview: {
+      chartType: "bar",
+      chartTitle: "Training Program Execution",
+      legend: ["Planned", "Completed", "Attendance"],
+      bars: [
+        { label: "Plan", height: 95, color: "bg-blue-600" },
+        { label: "Done", height: 75, color: "bg-sky-500" },
+        { label: "Attend", height: 98, color: "bg-emerald-500" }
+      ]
+    },
+    caseStudy: {
+      problem: "HR and Learning & Development teams struggle to measure the effectiveness, attendance, and cost of their corporate training programs. Tracking planned sessions versus actual execution across thousands of employees and departments requires an automated, live reporting solution.",
+      approach: [
+        "Connected Power BI to a collaboratively maintained Excel workbook hosted on SharePoint",
+        "Transformed and joined employee, attendance, and session data using Power Query",
+        "Developed a robust snowflake schema with bi-directional relationships for precise filtering",
+        "Engineered over 30 custom DAX measures, including dynamic KPI color formatting and guarded calculations"
+      ],
+      toolsAndTech: ["Power BI", "Power Query", "SharePoint", "Excel", "DAX"],
+      analysis: [
+        "Tracked a large-scale L&D operation comprising 4,400+ employees and 34,000+ attendance records",
+        "Evaluated training delivery mix, showing 81% of programs were sourced and delivered internally",
+        "Monitored departmental compliance with mandatory training and logged ~98% overall attendance rates",
+        "Analyzed actual training costs (LKR) at the session level to calculate cost-per-department and employee"
+      ],
+      keyInsights: "Replacing manual file distribution with a live SharePoint connection ensures HR Business Partners and Finance teams always analyze a single source of truth for workforce capability reviews and budget tracking.",
+      businessValue: "Transforms administrative HR data into strategic talent development insights, empowering leadership to monitor L&D investments, track skill-building compliance, and optimize the annual training calendar."
     }
   }
 ];

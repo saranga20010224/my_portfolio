@@ -11,6 +11,7 @@ import {
 } from 'lucide-react';
 import { PROFILE_DATA } from '../data/profile.ts';
 import { EDUCATION_DATA } from '../data/education.ts';
+import { FadeInUp, StaggerContainer, StaggerItem } from './animations/ScrollAnimation.tsx';
 
 export const About: React.FC = () => {
   const { heading, subheading, pillars, myJourney } = PROFILE_DATA.aboutMe;
@@ -30,11 +31,11 @@ export const About: React.FC = () => {
   };
 
   return (
-    <section id="about" className="py-10 md:py-14 border-t border-slate-200/80 dark:border-slate-800/80 bg-white dark:bg-slateDark-900/50">
+    <section id="about" className="py-10 md:py-14 border-t border-slate-200/80 dark:border-slate-800/80 bg-transparent">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Header */}
-        <div className="text-center max-w-3xl mx-auto mb-8">
+        <FadeInUp className="text-center max-w-3xl mx-auto mb-8">
           <span className="text-xs font-bold uppercase tracking-wider text-blue-600 dark:text-blue-400">
             Professional Profile
           </span>
@@ -44,12 +45,12 @@ export const About: React.FC = () => {
           <p className="text-base text-slate-600 dark:text-slate-300 mt-2">
             {subheading} &mdash; Bridging requirements, empirical analytics, and actionable BI dashboards.
           </p>
-        </div>
+        </FadeInUp>
 
         {/* 3 Structured Professional Identity Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-5 mb-8">
+        <StaggerContainer className="grid grid-cols-1 md:grid-cols-3 gap-5 mb-8">
           {pillars.map((pillar) => (
-            <div
+            <StaggerItem
               key={pillar.title}
               className="p-6 sm:p-7 rounded-3xl bg-slate-50/80 dark:bg-slateDark-850 border border-slate-200 dark:border-slate-800 shadow-xs hover:border-blue-500/50 dark:hover:border-blue-500/50 hover:shadow-md transition-all duration-200 flex flex-col justify-between"
             >
@@ -80,12 +81,12 @@ export const About: React.FC = () => {
                   </ul>
                 </div>
               </div>
-            </div>
+            </StaggerItem>
           ))}
-        </div>
+        </StaggerContainer>
 
         {/* "About My Journey" Structured Block with Profile Photo */}
-        <div className="p-6 sm:p-8 rounded-3xl bg-slate-50 dark:bg-slateDark-850 border border-slate-200 dark:border-slate-800 shadow-sm">
+        <FadeInUp className="p-6 sm:p-8 rounded-3xl bg-slate-50 dark:bg-slateDark-850 border border-slate-200 dark:border-slate-800 shadow-sm">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
             
             <div className="lg:col-span-8">
@@ -119,10 +120,10 @@ export const About: React.FC = () => {
 
             {/* Profile Photo Thumbnail */}
             <div className="lg:col-span-4 flex justify-center">
-              <div className="relative w-44 h-44 sm:w-52 sm:h-52 rounded-3xl p-1.5 bg-gradient-to-tr from-blue-600 to-sky-400 shadow-xl">
+              <div className="relative w-56 h-56 sm:w-64 sm:h-64 rounded-3xl p-1.5 bg-gradient-to-tr from-blue-600 to-sky-400 shadow-xl">
                 <div className="w-full h-full rounded-[22px] overflow-hidden bg-slate-900 border-2 border-white dark:border-slate-800">
                   <img
-                    src="/images/saranga-profile.png"
+                    src="/images/profile-new.jpg"
                     alt="Saranga Rathnayaka"
                     className="w-full h-full object-cover object-center"
                     onError={(e) => {
@@ -134,11 +135,11 @@ export const About: React.FC = () => {
             </div>
 
           </div>
-        </div>
+        </FadeInUp>
 
         {/* Education & Academic Background (Placed after About My Journey) */}
         <div id="education" className="mt-8 pt-8 border-t border-slate-200/80 dark:border-slate-800">
-          <div className="max-w-4xl mb-6">
+          <FadeInUp className="max-w-4xl mb-6">
             <span className="text-xs font-bold uppercase tracking-wider text-blue-600 dark:text-blue-400">
               Academic Background
             </span>
@@ -148,10 +149,10 @@ export const About: React.FC = () => {
             <p className="text-sm sm:text-base text-slate-600 dark:text-slate-300 mt-2 leading-relaxed">
               Developed a multidisciplinary foundation in <strong className="font-semibold text-slate-800 dark:text-slate-200">statistics, data analysis, computer science, operations research, and mathematics</strong> during my undergraduate studies. Gained hands-on experience in <strong className="font-semibold text-slate-800 dark:text-slate-200">statistical analysis, regression, probability, programming, linear programming, optimization, and real analysis</strong>, while applying theoretical concepts through practical work with tools such as <strong className="font-semibold text-slate-800 dark:text-slate-200">Minitab, RStudio, SPSS, and Octave</strong>. This combination of theoretical knowledge and practical experience strengthened my ability to solve quantitative and analytical problems using data-driven approaches.
             </p>
-          </div>
+          </FadeInUp>
 
           {/* Visually Dominant University Degree Card */}
-          <div className="p-8 sm:p-10 rounded-3xl bg-gradient-to-br from-blue-50/90 via-white to-slate-50 dark:from-slateDark-850 dark:via-slateDark-850 dark:to-blue-950/30 border-2 border-blue-500/40 dark:border-blue-500/50 shadow-lg relative overflow-hidden mb-6">
+          <FadeInUp className="p-8 sm:p-10 rounded-3xl bg-gradient-to-br from-blue-50/90 via-white to-slate-50 dark:from-slateDark-850 dark:via-slateDark-850 dark:to-blue-950/30 border-2 border-blue-500/40 dark:border-blue-500/50 shadow-lg relative overflow-hidden mb-6">
             <div className="absolute -top-12 -right-12 w-48 h-48 bg-blue-500/10 rounded-full blur-2xl pointer-events-none" />
 
             <div className="flex flex-wrap items-start justify-between gap-4 mb-6">
@@ -199,10 +200,10 @@ export const About: React.FC = () => {
                 ))}
               </div>
             </div>
-          </div>
+          </FadeInUp>
 
           {/* Secondary Education Card: High School */}
-          <div className="p-6 sm:p-8 rounded-3xl bg-slate-50 dark:bg-slateDark-850 border border-slate-200 dark:border-slate-800 shadow-sm">
+          <FadeInUp className="p-6 sm:p-8 rounded-3xl bg-slate-50 dark:bg-slateDark-850 border border-slate-200 dark:border-slate-800 shadow-sm">
             <div className="flex flex-wrap items-start justify-between gap-4 mb-4">
               <div>
                 <div className="inline-flex items-center space-x-2 text-xs font-semibold uppercase tracking-wider text-slate-500 dark:text-slate-400 mb-1">
@@ -241,10 +242,11 @@ export const About: React.FC = () => {
                 ))}
               </div>
             </div>
-          </div>
+          </FadeInUp>
         </div>
 
       </div>
     </section>
   );
 };
+
