@@ -52,7 +52,7 @@ export const ResumeModal: React.FC<ResumeModalProps> = ({ isOpen, onClose }) => 
             </div>
             <div>
               <h3 id="resume-modal-title" className="text-base sm:text-lg font-bold text-slate-900 dark:text-white">
-                Saranga Rathnayaka &mdash; Curriculum Vitae
+                Saranga Rathnayaka
               </h3>
               <p className="text-xs text-slate-500 dark:text-slate-400">
                 Business Analyst &bull; Data Analyst &bull; Business Intelligence
