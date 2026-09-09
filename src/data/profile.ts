@@ -104,7 +104,7 @@ export const PROFILE_DATA = {
   contact: {
     email: "sarangaisr23@gmail.com",
     phone: "+94 76 430 56 80",
-    location: "Sri Lanka",
+    location: "Colombo, Sri Lanka",
     linkedIn: "https://linkedin.com/in/saranga-rathnayaka",
     gitHub: "https://github.com/saranga20010224",
     resumePath: "./resume/Saranga_Rathnayaka_CV.pdf"
